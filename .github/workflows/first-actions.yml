@@ -34,3 +34,8 @@ jobs:
         run: |
           cd src
           python -m pytest multiplication.py
+
+      - name: Run tests on subtraction.py
+        run: |
+          cd src
+          python -m pytest sub.py
