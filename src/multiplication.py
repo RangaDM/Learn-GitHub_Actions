@@ -41,3 +41,7 @@ def test_mul():
     assert mul(-9, -9) == 81
     assert mul(10, 10) == 100
     assert mul(10, -10) == -100
+    assert mul(-10, 10) == -100
+    assert mul(-10, -10) == 100
+    assert mul(11, 11) == 121
+    assert mul(11, -11) == -121
