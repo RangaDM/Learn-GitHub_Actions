@@ -22,7 +22,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
 
-      - name: Run tests
+      - name: Run tests on addition.py
         run: |
           cd src
           python -m pytest addition.py
+
+      - name: Run tests on multiplication.py
+        run: |
+          cd src
+          python -m pytest multiplication.py
