@@ -27,3 +27,4 @@ jobs:
         cd src
         python -m pytest addition.py
         python -m pytest sub.py
+        python -m pytest multiplication.py
